@@ -1,0 +1,413 @@
+name: Reference
+landingPageType: Root
+expanded: false
+items:
+  - name: Management Libraries
+    landingPageType: Service
+    items:
+      - name: '@azure/arm-servicebus'
+        items:
+          - name: Overview
+            uid: '@azure/arm-servicebus'
+          - uid: '@azure/arm-servicebus.AccessKeys'
+            name: AccessKeys
+          - uid: '@azure/arm-servicebus.AccessRights'
+            name: AccessRights
+          - uid: '@azure/arm-servicebus.Action'
+            name: Action
+          - uid: '@azure/arm-servicebus.ArmDisasterRecovery'
+            name: ArmDisasterRecovery
+          - uid: '@azure/arm-servicebus.ArmDisasterRecoveryListResult'
+            name: ArmDisasterRecoveryListResult
+          - uid: '@azure/arm-servicebus.AuthorizationRuleProperties'
+            name: AuthorizationRuleProperties
+          - uid: '@azure/arm-servicebus.CaptureDescription'
+            name: CaptureDescription
+          - uid: '@azure/arm-servicebus.CheckNameAvailability'
+            name: CheckNameAvailability
+          - uid: '@azure/arm-servicebus.CheckNameAvailabilityResult'
+            name: CheckNameAvailabilityResult
+          - uid: '@azure/arm-servicebus.CorrelationFilter'
+            name: CorrelationFilter
+          - uid: '@azure/arm-servicebus.DefaultAction'
+            name: DefaultAction
+          - uid: '@azure/arm-servicebus.Destination'
+            name: Destination
+          - uid: '@azure/arm-servicebus.DisasterRecoveryConfigs'
+            name: DisasterRecoveryConfigs
+          - uid: >-
+              @azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse
+            name: DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse
+          - uid: >-
+              @azure/arm-servicebus.DisasterRecoveryConfigsCreateOrUpdateResponse
+            name: DisasterRecoveryConfigsCreateOrUpdateResponse
+          - uid: >-
+              @azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleResponse
+            name: DisasterRecoveryConfigsGetAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsGetResponse'
+            name: DisasterRecoveryConfigsGetResponse
+          - uid: >-
+              @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesNextResponse
+            name: DisasterRecoveryConfigsListAuthorizationRulesNextResponse
+          - uid: >-
+              @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesResponse
+            name: DisasterRecoveryConfigsListAuthorizationRulesResponse
+          - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsListKeysResponse'
+            name: DisasterRecoveryConfigsListKeysResponse
+          - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsListNextResponse'
+            name: DisasterRecoveryConfigsListNextResponse
+          - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsListResponse'
+            name: DisasterRecoveryConfigsListResponse
+          - uid: '@azure/arm-servicebus.EncodingCaptureDescription'
+            name: EncodingCaptureDescription
+          - uid: '@azure/arm-servicebus.EntityStatus'
+            name: EntityStatus
+          - uid: '@azure/arm-servicebus.ErrorResponse'
+            name: ErrorResponse
+          - uid: '@azure/arm-servicebus.Eventhub'
+            name: Eventhub
+          - uid: '@azure/arm-servicebus.EventHubListResult'
+            name: EventHubListResult
+          - uid: '@azure/arm-servicebus.EventHubs'
+            name: EventHubs
+          - uid: '@azure/arm-servicebus.EventHubsListByNamespaceNextResponse'
+            name: EventHubsListByNamespaceNextResponse
+          - uid: '@azure/arm-servicebus.EventHubsListByNamespaceResponse'
+            name: EventHubsListByNamespaceResponse
+          - uid: '@azure/arm-servicebus.FilterType'
+            name: FilterType
+          - uid: '@azure/arm-servicebus.KeyType'
+            name: KeyType
+          - uid: '@azure/arm-servicebus.MessageCountDetails'
+            name: MessageCountDetails
+          - uid: '@azure/arm-servicebus.MigrationConfigListResult'
+            name: MigrationConfigListResult
+          - uid: '@azure/arm-servicebus.MigrationConfigProperties'
+            name: MigrationConfigProperties
+          - uid: '@azure/arm-servicebus.MigrationConfigs'
+            name: MigrationConfigs
+          - uid: >-
+              @azure/arm-servicebus.MigrationConfigsBeginCreateAndStartMigrationResponse
+            name: MigrationConfigsBeginCreateAndStartMigrationResponse
+          - uid: >-
+              @azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse
+            name: MigrationConfigsCreateAndStartMigrationResponse
+          - uid: '@azure/arm-servicebus.MigrationConfigsGetResponse'
+            name: MigrationConfigsGetResponse
+          - uid: '@azure/arm-servicebus.MigrationConfigsListNextResponse'
+            name: MigrationConfigsListNextResponse
+          - uid: '@azure/arm-servicebus.MigrationConfigsListResponse'
+            name: MigrationConfigsListResponse
+          - uid: '@azure/arm-servicebus.Namespaces'
+            name: Namespaces
+          - uid: '@azure/arm-servicebus.NamespacesBeginCreateOrUpdateResponse'
+            name: NamespacesBeginCreateOrUpdateResponse
+          - uid: >-
+              @azure/arm-servicebus.NamespacesCheckNameAvailabilityMethodResponse
+            name: NamespacesCheckNameAvailabilityMethodResponse
+          - uid: >-
+              @azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleResponse
+            name: NamespacesCreateOrUpdateAuthorizationRuleResponse
+          - uid: >-
+              @azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetResponse
+            name: NamespacesCreateOrUpdateNetworkRuleSetResponse
+          - uid: '@azure/arm-servicebus.NamespacesCreateOrUpdateResponse'
+            name: NamespacesCreateOrUpdateResponse
+          - uid: '@azure/arm-servicebus.NamespacesGetAuthorizationRuleResponse'
+            name: NamespacesGetAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.NamespacesGetNetworkRuleSetResponse'
+            name: NamespacesGetNetworkRuleSetResponse
+          - uid: '@azure/arm-servicebus.NamespacesGetResponse'
+            name: NamespacesGetResponse
+          - uid: '@azure/arm-servicebus.NamespacesListAuthorizationRulesNextResponse'
+            name: NamespacesListAuthorizationRulesNextResponse
+          - uid: '@azure/arm-servicebus.NamespacesListAuthorizationRulesResponse'
+            name: NamespacesListAuthorizationRulesResponse
+          - uid: '@azure/arm-servicebus.NamespacesListByResourceGroupNextResponse'
+            name: NamespacesListByResourceGroupNextResponse
+          - uid: '@azure/arm-servicebus.NamespacesListByResourceGroupResponse'
+            name: NamespacesListByResourceGroupResponse
+          - uid: '@azure/arm-servicebus.NamespacesListKeysResponse'
+            name: NamespacesListKeysResponse
+          - uid: '@azure/arm-servicebus.NamespacesListNetworkRuleSetsNextResponse'
+            name: NamespacesListNetworkRuleSetsNextResponse
+          - uid: '@azure/arm-servicebus.NamespacesListNetworkRuleSetsResponse'
+            name: NamespacesListNetworkRuleSetsResponse
+          - uid: '@azure/arm-servicebus.NamespacesListNextResponse'
+            name: NamespacesListNextResponse
+          - uid: '@azure/arm-servicebus.NamespacesListResponse'
+            name: NamespacesListResponse
+          - uid: '@azure/arm-servicebus.NamespacesRegenerateKeysResponse'
+            name: NamespacesRegenerateKeysResponse
+          - uid: '@azure/arm-servicebus.NamespacesUpdateResponse'
+            name: NamespacesUpdateResponse
+          - uid: '@azure/arm-servicebus.NameSpaceType'
+            name: NameSpaceType
+          - uid: '@azure/arm-servicebus.NetworkRuleIPAction'
+            name: NetworkRuleIPAction
+          - uid: '@azure/arm-servicebus.NetworkRuleSet'
+            name: NetworkRuleSet
+          - uid: '@azure/arm-servicebus.NetworkRuleSetListResult'
+            name: NetworkRuleSetListResult
+          - uid: '@azure/arm-servicebus.NWRuleSetIpRules'
+            name: NWRuleSetIpRules
+          - uid: '@azure/arm-servicebus.NWRuleSetVirtualNetworkRules'
+            name: NWRuleSetVirtualNetworkRules
+          - uid: '@azure/arm-servicebus.Operation'
+            name: Operation
+          - uid: '@azure/arm-servicebus.OperationDisplay'
+            name: OperationDisplay
+          - uid: '@azure/arm-servicebus.OperationListResult'
+            name: OperationListResult
+          - uid: '@azure/arm-servicebus.Operations'
+            name: Operations
+          - uid: '@azure/arm-servicebus.OperationsListNextResponse'
+            name: OperationsListNextResponse
+          - uid: '@azure/arm-servicebus.OperationsListResponse'
+            name: OperationsListResponse
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegions'
+            name: PremiumMessagingRegions
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegionsListNextResponse'
+            name: PremiumMessagingRegionsListNextResponse
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegionsListResponse'
+            name: PremiumMessagingRegionsListResponse
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegionsListResult'
+            name: PremiumMessagingRegionsListResult
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegionsOperations'
+            name: PremiumMessagingRegionsOperations
+          - uid: '@azure/arm-servicebus.PremiumMessagingRegionsProperties'
+            name: PremiumMessagingRegionsProperties
+          - uid: '@azure/arm-servicebus.ProvisioningStateDR'
+            name: ProvisioningStateDR
+          - uid: '@azure/arm-servicebus.Queues'
+            name: Queues
+          - uid: >-
+              @azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleResponse
+            name: QueuesCreateOrUpdateAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.QueuesCreateOrUpdateResponse'
+            name: QueuesCreateOrUpdateResponse
+          - uid: '@azure/arm-servicebus.QueuesGetAuthorizationRuleResponse'
+            name: QueuesGetAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.QueuesGetResponse'
+            name: QueuesGetResponse
+          - uid: '@azure/arm-servicebus.QueuesListAuthorizationRulesNextResponse'
+            name: QueuesListAuthorizationRulesNextResponse
+          - uid: '@azure/arm-servicebus.QueuesListAuthorizationRulesResponse'
+            name: QueuesListAuthorizationRulesResponse
+          - uid: '@azure/arm-servicebus.QueuesListByNamespaceNextResponse'
+            name: QueuesListByNamespaceNextResponse
+          - uid: '@azure/arm-servicebus.QueuesListByNamespaceOptionalParams'
+            name: QueuesListByNamespaceOptionalParams
+          - uid: '@azure/arm-servicebus.QueuesListByNamespaceResponse'
+            name: QueuesListByNamespaceResponse
+          - uid: '@azure/arm-servicebus.QueuesListKeysResponse'
+            name: QueuesListKeysResponse
+          - uid: '@azure/arm-servicebus.QueuesRegenerateKeysResponse'
+            name: QueuesRegenerateKeysResponse
+          - uid: '@azure/arm-servicebus.RegenerateAccessKeyParameters'
+            name: RegenerateAccessKeyParameters
+          - uid: '@azure/arm-servicebus.Regions'
+            name: Regions
+          - uid: '@azure/arm-servicebus.RegionsListBySkuNextResponse'
+            name: RegionsListBySkuNextResponse
+          - uid: '@azure/arm-servicebus.RegionsListBySkuResponse'
+            name: RegionsListBySkuResponse
+          - uid: '@azure/arm-servicebus.Resource'
+            name: Resource
+          - uid: '@azure/arm-servicebus.ResourceNamespacePatch'
+            name: ResourceNamespacePatch
+          - uid: '@azure/arm-servicebus.RoleDisasterRecovery'
+            name: RoleDisasterRecovery
+          - uid: '@azure/arm-servicebus.Rule'
+            name: Rule
+          - uid: '@azure/arm-servicebus.RuleListResult'
+            name: RuleListResult
+          - uid: '@azure/arm-servicebus.Rules'
+            name: Rules
+          - uid: '@azure/arm-servicebus.RulesCreateOrUpdateResponse'
+            name: RulesCreateOrUpdateResponse
+          - uid: '@azure/arm-servicebus.RulesGetResponse'
+            name: RulesGetResponse
+          - uid: '@azure/arm-servicebus.RulesListBySubscriptionsNextResponse'
+            name: RulesListBySubscriptionsNextResponse
+          - uid: '@azure/arm-servicebus.RulesListBySubscriptionsOptionalParams'
+            name: RulesListBySubscriptionsOptionalParams
+          - uid: '@azure/arm-servicebus.RulesListBySubscriptionsResponse'
+            name: RulesListBySubscriptionsResponse
+          - uid: '@azure/arm-servicebus.SBAuthorizationRule'
+            name: SBAuthorizationRule
+          - uid: '@azure/arm-servicebus.SBAuthorizationRuleListResult'
+            name: SBAuthorizationRuleListResult
+          - uid: '@azure/arm-servicebus.SBNamespace'
+            name: SBNamespace
+          - uid: '@azure/arm-servicebus.SBNamespaceListResult'
+            name: SBNamespaceListResult
+          - uid: '@azure/arm-servicebus.SBNamespaceMigrate'
+            name: SBNamespaceMigrate
+          - uid: '@azure/arm-servicebus.SBNamespaceUpdateParameters'
+            name: SBNamespaceUpdateParameters
+          - uid: '@azure/arm-servicebus.SBQueue'
+            name: SBQueue
+          - uid: '@azure/arm-servicebus.SBQueueListResult'
+            name: SBQueueListResult
+          - uid: '@azure/arm-servicebus.SBSku'
+            name: SBSku
+          - uid: '@azure/arm-servicebus.SBSubscription'
+            name: SBSubscription
+          - uid: '@azure/arm-servicebus.SBSubscriptionListResult'
+            name: SBSubscriptionListResult
+          - uid: '@azure/arm-servicebus.SBTopic'
+            name: SBTopic
+          - uid: '@azure/arm-servicebus.SBTopicListResult'
+            name: SBTopicListResult
+          - uid: '@azure/arm-servicebus.ServiceBusManagementClient'
+            name: ServiceBusManagementClient
+          - uid: '@azure/arm-servicebus.ServiceBusManagementClientContext'
+            name: ServiceBusManagementClientContext
+          - uid: '@azure/arm-servicebus.ServiceBusManagementClientOptions'
+            name: ServiceBusManagementClientOptions
+          - uid: '@azure/arm-servicebus.SkuName'
+            name: SkuName
+          - uid: '@azure/arm-servicebus.SkuTier'
+            name: SkuTier
+          - uid: '@azure/arm-servicebus.SqlFilter'
+            name: SqlFilter
+          - uid: '@azure/arm-servicebus.SqlRuleAction'
+            name: SqlRuleAction
+          - uid: '@azure/arm-servicebus.Subnet'
+            name: Subnet
+          - uid: '@azure/arm-servicebus.Subscriptions'
+            name: Subscriptions
+          - uid: '@azure/arm-servicebus.SubscriptionsCreateOrUpdateResponse'
+            name: SubscriptionsCreateOrUpdateResponse
+          - uid: '@azure/arm-servicebus.SubscriptionsGetResponse'
+            name: SubscriptionsGetResponse
+          - uid: '@azure/arm-servicebus.SubscriptionsListByTopicNextResponse'
+            name: SubscriptionsListByTopicNextResponse
+          - uid: '@azure/arm-servicebus.SubscriptionsListByTopicOptionalParams'
+            name: SubscriptionsListByTopicOptionalParams
+          - uid: '@azure/arm-servicebus.SubscriptionsListByTopicResponse'
+            name: SubscriptionsListByTopicResponse
+          - uid: '@azure/arm-servicebus.Topics'
+            name: Topics
+          - uid: >-
+              @azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleResponse
+            name: TopicsCreateOrUpdateAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.TopicsCreateOrUpdateResponse'
+            name: TopicsCreateOrUpdateResponse
+          - uid: '@azure/arm-servicebus.TopicsGetAuthorizationRuleResponse'
+            name: TopicsGetAuthorizationRuleResponse
+          - uid: '@azure/arm-servicebus.TopicsGetResponse'
+            name: TopicsGetResponse
+          - uid: '@azure/arm-servicebus.TopicsListAuthorizationRulesNextResponse'
+            name: TopicsListAuthorizationRulesNextResponse
+          - uid: '@azure/arm-servicebus.TopicsListAuthorizationRulesResponse'
+            name: TopicsListAuthorizationRulesResponse
+          - uid: '@azure/arm-servicebus.TopicsListByNamespaceNextResponse'
+            name: TopicsListByNamespaceNextResponse
+          - uid: '@azure/arm-servicebus.TopicsListByNamespaceOptionalParams'
+            name: TopicsListByNamespaceOptionalParams
+          - uid: '@azure/arm-servicebus.TopicsListByNamespaceResponse'
+            name: TopicsListByNamespaceResponse
+          - uid: '@azure/arm-servicebus.TopicsListKeysResponse'
+            name: TopicsListKeysResponse
+          - uid: '@azure/arm-servicebus.TopicsRegenerateKeysResponse'
+            name: TopicsRegenerateKeysResponse
+          - uid: '@azure/arm-servicebus.TrackedResource'
+            name: TrackedResource
+          - uid: '@azure/arm-servicebus.UnavailableReason'
+            name: UnavailableReason
+  - name: Service Bus Client
+    items:
+      - name: Overview
+        href: conceptual/service-bus/latest/service-bus-readme.md
+      - name: '@azure/service-bus'
+        items:
+          - name: Overview
+            uid: '@azure/service-bus'
+          - uid: '@azure/service-bus.AuthorizationRule'
+            name: AuthorizationRule
+          - uid: '@azure/service-bus.CorrelationRuleFilter'
+            name: CorrelationRuleFilter
+          - uid: '@azure/service-bus.CreateMessageBatchOptions'
+            name: CreateMessageBatchOptions
+          - uid: '@azure/service-bus.CreateQueueOptions'
+            name: CreateQueueOptions
+          - uid: '@azure/service-bus.CreateSubscriptionOptions'
+            name: CreateSubscriptionOptions
+          - uid: '@azure/service-bus.CreateTopicOptions'
+            name: CreateTopicOptions
+          - uid: '@azure/service-bus.DeadLetterOptions'
+            name: DeadLetterOptions
+          - uid: '@azure/service-bus.EntitiesResponse'
+            name: EntitiesResponse
+          - uid: '@azure/service-bus.EntityAvailabilityStatus'
+            name: EntityAvailabilityStatus
+          - uid: '@azure/service-bus.EntityStatus'
+            name: EntityStatus
+          - uid: '@azure/service-bus.GetMessageIteratorOptions'
+            name: GetMessageIteratorOptions
+          - uid: '@azure/service-bus.MessageHandlers'
+            name: MessageHandlers
+          - uid: '@azure/service-bus.NamespaceProperties'
+            name: NamespaceProperties
+          - uid: '@azure/service-bus.OperationOptionsBase'
+            name: OperationOptionsBase
+          - uid: '@azure/service-bus.PeekMessagesOptions'
+            name: PeekMessagesOptions
+          - uid: '@azure/service-bus.ProcessErrorArgs'
+            name: ProcessErrorArgs
+          - uid: '@azure/service-bus.QueueProperties'
+            name: QueueProperties
+          - uid: '@azure/service-bus.QueueRuntimeProperties'
+            name: QueueRuntimeProperties
+          - uid: '@azure/service-bus.ReceiveMessagesOptions'
+            name: ReceiveMessagesOptions
+          - uid: '@azure/service-bus.RuleProperties'
+            name: RuleProperties
+          - uid: '@azure/service-bus.ServiceBusAdministrationClient'
+            name: ServiceBusAdministrationClient
+          - uid: '@azure/service-bus.ServiceBusClient'
+            name: ServiceBusClient
+          - uid: '@azure/service-bus.ServiceBusClientOptions'
+            name: ServiceBusClientOptions
+          - uid: '@azure/service-bus.ServiceBusConnectionStringProperties'
+            name: ServiceBusConnectionStringProperties
+          - uid: '@azure/service-bus.ServiceBusError'
+            name: ServiceBusError
+          - uid: '@azure/service-bus.ServiceBusErrorCode'
+            name: ServiceBusErrorCode
+          - uid: '@azure/service-bus.ServiceBusMessage'
+            name: ServiceBusMessage
+          - uid: '@azure/service-bus.ServiceBusMessageBatch'
+            name: ServiceBusMessageBatch
+          - uid: '@azure/service-bus.ServiceBusReceivedMessage'
+            name: ServiceBusReceivedMessage
+          - uid: '@azure/service-bus.ServiceBusReceiver'
+            name: ServiceBusReceiver
+          - uid: '@azure/service-bus.ServiceBusReceiverOptions'
+            name: ServiceBusReceiverOptions
+          - uid: '@azure/service-bus.ServiceBusSender'
+            name: ServiceBusSender
+          - uid: '@azure/service-bus.ServiceBusSessionReceiver'
+            name: ServiceBusSessionReceiver
+          - uid: '@azure/service-bus.ServiceBusSessionReceiverOptions'
+            name: ServiceBusSessionReceiverOptions
+          - uid: '@azure/service-bus.SqlRuleAction'
+            name: SqlRuleAction
+          - uid: '@azure/service-bus.SqlRuleFilter'
+            name: SqlRuleFilter
+          - uid: '@azure/service-bus.SubscribeOptions'
+            name: SubscribeOptions
+          - uid: '@azure/service-bus.SubscriptionProperties'
+            name: SubscriptionProperties
+          - uid: '@azure/service-bus.SubscriptionRuntimeProperties'
+            name: SubscriptionRuntimeProperties
+          - uid: '@azure/service-bus.TopicProperties'
+            name: TopicProperties
+          - uid: '@azure/service-bus.TopicRuntimeProperties'
+            name: TopicRuntimeProperties
+          - uid: '@azure/service-bus.TryAddOptions'
+            name: TryAddOptions
+          - uid: '@azure/service-bus.WithResponse'
+            name: WithResponse
