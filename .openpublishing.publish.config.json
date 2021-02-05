@@ -6,7 +6,7 @@
       "build_output_subfolder": "azure-sdk-docs-js-prototype",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["azure-node-latest","azure-node-preview","azure-node-legacy"],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
