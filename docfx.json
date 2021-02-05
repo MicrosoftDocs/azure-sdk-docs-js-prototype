@@ -2,12 +2,14 @@
   "build": {
     "markdownEngineName": "markdig",
     "content": [
-      {
+{
         "files": [
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
+        "src": "storage/latest/docs-ref-autogen",
+        "group": "stable",
+        "dest":"prototype",        
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -19,13 +21,36 @@
       },
       {
         "files": [
+          "**/*.md",
           "**/*.yml"
         ],
-        "src": "breadcrumb",
-        "dest": "breadcrumb",
+        "src": "storage/preview/docs-ref-autogen",
+        "group": "preview",
+        "dest":"prototype",        
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "storage/legacy/docs-ref-autogen",
+        "group": "legacy",        
+        "dest":"prototype",        
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
         ]
       }
     ],
@@ -46,6 +71,20 @@
     "globalMetadata": {
       "breadcrumb_path": "~/breadcrumb/toc.yml"
     },
+"groups": {
+      "preview": {
+        "dest": "preview",
+        "moniker_range": "azure-node-preview"
+      },
+      "legacy": {
+        "dest": "legacy",
+        "moniker_range": "azure-node-legacy"
+      },
+      "stable": {
+        "dest": "stable",
+        "moniker_range": "azure-node-latest"
+      }
+    },    
     "fileMetadata": {},
     "template": [],
     "dest": "_site"
