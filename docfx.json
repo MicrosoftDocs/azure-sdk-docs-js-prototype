@@ -9,7 +9,7 @@
         ],
         "src": "storage/latest/docs-ref-autogen",
         "group": "stable",
-        "dest":"prototype2",        
+        "dest":"prototype2/storage",        
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -26,7 +26,7 @@
         ],
         "src": "storage/preview/docs-ref-autogen",
         "group": "preview",
-        "dest":"prototype2",        
+        "dest":"prototype2/storage",        
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -43,7 +43,7 @@
         ],
         "src": "storage/legacy/docs-ref-autogen",
         "group": "legacy",        
-        "dest":"prototype2",        
+        "dest":"prototype2/storage",        
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -52,7 +52,24 @@
           "LICENSE-CODE",
           "ThirdPartyNotices"
         ]
-      }
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "service-bus/latest/docs-ref-autogen",
+        "group": "legacy",        
+        "dest":"prototype2/service-bus",        
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }      
     ],
     "resource": [
       {
